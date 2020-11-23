@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Almarai&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-image: url("../../wallpaper2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 120% 120%;
+  font-family: "Almarai", sans-serif;
+  direction: rtl;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+body .wrapped {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 90vh;
+}
+
+body .wrapped .homepage {
+  color: #e0e0e2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+}
+
+body .wrapped .homepage .header {
+  width: 100%;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #3c91e6;
+  border-radius: 20px;
+  text-align: center;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+body .wrapped .homepage .header:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+body .wrapped .homepage .header h1 {
+  font-size: 50px;
+  color: #9fd356;
+}
+
+body .wrapped .homepage .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+body .wrapped .homepage .cards .card {
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background-color: #342e37;
+  padding: 15px;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 3px 3px red;
+          box-shadow: 0px 3px 3px red;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+body .wrapped .homepage .cards .card:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+body .wrapped .homepage .cards .card .status {
+  font-size: 30px;
+  color: #fa824c;
+}
+
+body .wrapped .homepage .cards .card .the-number {
+  margin-top: 12px;
+  font-size: 26px;
+  color: #fafffd;
+}
+
+body footer {
+  text-align: center;
+}
+
+body footer a {
+  text-decoration: none;
+  color: #ffffff;
+  text-shadow: 10px 10px 10px #000000;
+  font-size: 40px;
+  font-style: italic;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+body footer a:hover {
+  font-size: 42px;
+}
+/*# sourceMappingURL=Homepage.css.map */
