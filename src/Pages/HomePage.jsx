@@ -26,10 +26,10 @@ class HomePage extends Component {
             <>
             <div className="wrapped">
                 <div className="homepage">
-                <div data-aos="fade-up">
+               
                     <div className="header">
-                    <h1>عدد حالات كورونا في الكويت</h1>
-                    </div>
+                    <p>عدد حالات كورونا في الكويت</p>
+                   
                 </div>
                     
                     <div className="cards">
@@ -38,12 +38,12 @@ class HomePage extends Component {
                         <Card statusname="حالات تعافي جديدة" number={this.state.data.recovered}/>
                         <Card statusname="الحالات التي تتلقى العلاج" number={this.state.data.active}/>
                         <Card statusname="إجمالي الحالات في العناية المركزة" number={this.state.data.critical}/>
-                        <Card statusname="المسحات الجديدة" number={this.state.data.totalTests}/>
+                        <Card statusname="مجموع المسحات" number={this.state.data.totalTests}/>
                     </div>
                 </div>
             </div>
             <footer>
-            <a href="https://www.instagram.com/al86an.q8/">al86an.q8@</a>
+            <a target="_blank" href="https://www.instagram.com/al86an.q8/" rel="noopener noreferrer">al86an.q8@</a>
             </footer>
             </>
         );

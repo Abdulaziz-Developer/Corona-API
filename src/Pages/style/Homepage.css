@@ -3,20 +3,20 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
   background-image: url("../../wallpaper2.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 120% 120%;
+  background-size: 150% 150%;
   font-family: "Almarai", sans-serif;
   direction: rtl;
   -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 body .wrapped {
@@ -24,12 +24,12 @@ body .wrapped {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 90vh;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100vh;
 }
 
 body .wrapped .homepage {
@@ -39,14 +39,14 @@ body .wrapped .homepage {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   width: 80%;
 }
 
@@ -57,11 +57,11 @@ body .wrapped .homepage .header {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   background-color: #3c91e6;
   border-radius: 20px;
   text-align: center;
@@ -71,11 +71,11 @@ body .wrapped .homepage .header {
 
 body .wrapped .homepage .header:hover {
   -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  transform: scale(1.1);
 }
 
-body .wrapped .homepage .header h1 {
-  font-size: 50px;
+body .wrapped .homepage .header p {
+  font-size: 40px;
   color: #9fd356;
 }
 
@@ -84,13 +84,13 @@ body .wrapped .homepage .cards {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   margin-top: 10px;
 }
 
@@ -101,26 +101,26 @@ body .wrapped .homepage .cards .card {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
   background-color: #342e37;
   padding: 15px;
   border-radius: 20px;
   -webkit-box-shadow: 0px 3px 3px red;
-          box-shadow: 0px 3px 3px red;
+  box-shadow: 0px 3px 3px red;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
 
 body .wrapped .homepage .cards .card:hover {
   -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 body .wrapped .homepage .cards .card .status {
@@ -150,5 +150,20 @@ body footer a {
 
 body footer a:hover {
   font-size: 42px;
+}
+@media only screen and (max-width: 600px) {
+  .header {
+    margin-top: 200px;
+  }
+  .card {
+    width: 100%;
+    text-align: center;
+  }
+  .status p {
+    font-size: 20px;
+  }
+  footer {
+    margin-top: 200px;
+  }
 }
 /*# sourceMappingURL=Homepage.css.map */
