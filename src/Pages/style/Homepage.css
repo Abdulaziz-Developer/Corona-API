@@ -151,9 +151,18 @@ body footer a {
 body footer a:hover {
   font-size: 42px;
 }
+.para {
+  font-size: 30px;
+  margin-top: 100px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #fa824c;
+  padding: 10px;
+  border-radius: 20px;
+}
 @media only screen and (max-width: 600px) {
   .header {
-    margin-top: 200px;
+    margin-top: 380px;
   }
   .card {
     width: 100%;
@@ -162,8 +171,12 @@ body footer a:hover {
   .status p {
     font-size: 20px;
   }
+  .para {
+    margin-top: 30px;
+  }
   footer {
-    margin-top: 200px;
+    margin-top: 380px;
   }
 }
+
 /*# sourceMappingURL=Homepage.css.map */

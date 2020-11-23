@@ -26,12 +26,9 @@ class HomePage extends Component {
             <>
             <div className="wrapped">
                 <div className="homepage">
-               
                     <div className="header">
                     <p>عدد حالات كورونا في الكويت</p>
-                   
-                </div>
-                    
+                    </div>  
                     <div className="cards">
                         <Card statusname="الحالات الإجمالية" number={this.state.data.cases}/>
                         <Card statusname="حالات الوفاة الإجمالية" number={this.state.data.deaths}/>
@@ -40,6 +37,7 @@ class HomePage extends Component {
                         <Card statusname="إجمالي الحالات في العناية المركزة" number={this.state.data.critical}/>
                         <Card statusname="مجموع المسحات" number={this.state.data.totalTests}/>
                     </div>
+                    <p className="para">” اللهم ارفع عنا البلاء والوباء برحمتك ولطفك، اللهم ارفع عنا البلاء والوباء والزلازل والمحن.”</p>
                 </div>
             </div>
             <footer>
